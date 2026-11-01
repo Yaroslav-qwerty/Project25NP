@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Töppötassut | Taija Ruuhijärvi</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <button
+        class="burger"
+        aria-label="Valikko"
+        onclick="document.getElementById('m').classList.toggle('open')"
+      >
+        ...
+      </button>
+      <nav>
+        <ul id="m">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#kuka">kuka minä olen?</a></li>
+          <li><a href="toppotassut.html" class="active">Töppötassut</a></li>
+          <li><a href="kuvia.html">Kuvia</a></li>
+          <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
+          <li><a href="tilaukset.html">Tilaukset</a></li>
+          <li><a href="materiaalit.html">Materiaalit</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="two">
+        <img src="images/toppotassut.jpg" alt="Töppötassut" class="portrait"/>
+        <div>
+          <p class="small">teksti ja kuvat Taija Ruuhijärvi</p>
+          <p>
+            Tervetuloa kirjailija Taija Ruuhijärven kotisivuille. Täältä löydät tietoa kirjailijan
+            teoksista, tapahtumista ja uutisista. Kirjailija Taija Ruuhijärvi on kirjoittanut ja
+            kuvittanut lastenkirjan Töppötassut Suuri seikkailu, joka on herättänyt kiinnostusta ja
+            saanut kiitosta niin lukijoilta kuin kriitikoiltakin. Tutustu, tilaa ja löydä uusi
+            suosikkikirjasi.
+          </p>
+          <p>
+            TÖPPÖTASSUT ovat vilkasliikkeinen kuusikko, joista jokaisella on lempinimensä ohella
+            omat erityispiirteensä.
+          </p>
+          <p>
+            Tumperoinen oli pienenä rauhallinen, kunnes eräänä aamuna heräsi energisenä ja
+            voimakkaana. Maturainen on hajamielinen koripalloilija, joka syö pizzasta vain reunat.
+            Tyrannosaurus Rex rakastaa hyvää ruokaa, Teresa taas leipomista ja kitaransoittoa.
+            Milla, joukkion toinen tyttö, on kantavaääninen tanssija. Temppua, porukan vanhinta, ei
+            koskaan tarvitse houkutella mukaan seikkailuleikkeihin.
+          </p>
+          <p>
+            Töppötassut asuvat saaressa ja saavat temmeltää vapaasti luonnossa. Heille sattuu ja
+            tapahtuu aina.
+          </p>
+          <p>
+            Jokainen seikkailu esitetään luvun mittaisena episodina. Osassa draama syntyy arkisista
+            aineksista, kuten paikallisen aasin hotellivierailusta, yhteisestä kortinpeluusta tai
+            jäätelömakujen valinnasta.
+          </p>
+          <p>
+            Usein käänteet ovat kuitenkin hyvin lennokkaita, konkreettisestikin, kun päädytään
+            koneen siivelle, hypätään laskuvarjoilla Etnan juurelle tai liu'utaan samaisen
+            tulivuoren huipulta liukurilla alas.
+          </p>
+          <p>
+            Juonenkäänteiden lomassa vahvistetaan keskinäistä ystävyyttä, opetellaan sosiaalisia
+            selviytymistaitoja, sekä harjoitetaan oman mielen hallintaa kiperissä tilanteissa.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <form class="newsletter" onsubmit="return newsletter(this);">
+        <label for="nl">tilaa uutiskirje</label>
+        <input id="nl" type="email" required placeholder="Sähköposti" />
+        <button>tilaa</button>
+      </form>
+      <p>© 2023 by Taija Ruuhijärvi</p>
+    </footer>
+  </body>
+</html>
