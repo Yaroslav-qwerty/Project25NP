@@ -1,10 +1,3 @@
-function newsletter(f) {
-  mail(
-    "Uutiskirjeen tilaus",
-    "Haluan tilata uutiskirjeen osoitteeseen: " + f.querySelector("input").value,
-  );
-  return false;
-}
 function contactForm(f) {
   mail(
     "Viesti kotisivuilta",

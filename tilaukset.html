@@ -1,19 +1,15 @@
 <!doctype html>
 <html lang="fi">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Tilaukset | Taija Ruuhijärvi</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
     <header>
-      <button
-        class="burger"
-        aria-label="Valikko"
-        onclick="document.getElementById('m').classList.toggle('open')"
-      >
+      <button class="burger" aria-label="Valikko" onclick="document.getElementById('m').classList.toggle('open')">
         ...
       </button>
       <nav>
@@ -36,31 +32,31 @@
           <form id="of" onsubmit="return orderForm(this);">
             <label>
               Etunimi
-              <input name="fn" required />
+              <input name="fn" required>
             </label>
             <label>
               Sukunimi
-              <input name="ln" required />
+              <input name="ln" required>
             </label>
             <label>
               Sähköposti
-              <input name="em" type="email" required />
+              <input name="em" type="email" required>
             </label>
             <label>
               Osoite
-              <input name="ad" required />
+              <input name="ad" required>
             </label>
             <label>
               Puhelin (ei pakollinen)
-              <input name="ph" />
+              <input name="ph">
             </label>
             <label class="ck">
-              <input type="checkbox" name="ded" />
+              <input type="checkbox" name="ded">
               Haluan kirjan omistuskirjoituksella
             </label>
             <label>
               kappalemäärä
-              <input name="qty" type="number" min="1" value="1" required />
+              <input name="qty" type="number" min="1" value="1" required>
             </label>
             <label>
               Haluan omistuskirjoituksen seuraavasti:
@@ -78,15 +74,10 @@
             <p class="ok" hidden>Kiitos tilauksesta!</p>
           </form>
         </div>
-        <img src="images/kansi.jpg" alt="Töppötassut kansi" class="portrait"/>
+        <img src="images/kansi.jpg" alt="Töppötassut kansi" class="portrait">
       </section>
     </main>
     <footer>
-      <form class="newsletter" onsubmit="return newsletter(this);">
-        <label for="nl">tilaa uutiskirje</label>
-        <input id="nl" type="email" required placeholder="Sähköposti" />
-        <button>tilaa</button>
-      </form>
       <p>© 2023 by Taija Ruuhijärvi</p>
     </footer>
   </body>

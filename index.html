@@ -1,19 +1,15 @@
 <!doctype html>
 <html lang="fi">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home | Taija Ruuhijärvi</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
     <header>
-      <button
-        class="burger"
-        aria-label="Valikko"
-        onclick="document.getElementById('m').classList.toggle('open')"
-      >
+      <button class="burger" aria-label="Valikko" onclick="document.getElementById('m').classList.toggle('open')">
         ...
       </button>
       <nav>
@@ -31,7 +27,7 @@
     </header>
     <main>
       <section class="hero">
-        <img src="images/hero.jpg" alt="Aarteenetsintä alkakoon" class="hero-img"/>
+        <img src="images/hero.jpg" alt="Aarteenetsintä alkakoon" class="hero-img">
 
         <div class="hero-text">
           <p class="small">Esikoisteos</p>
@@ -41,14 +37,14 @@
         </div>
       </section>
       <section class="center">
-        <img src="images/kansi.jpg" alt="Töppötassut kansi" class="cover" onerror="ph(this)" />
+        <img src="images/kansi.jpg" alt="Töppötassut kansi" class="cover">
         <p><a class="btn" href="tilaukset.html">Tilaa tästä</a></p>
         <p class="small">Tämän kuukauden</p>
         <h2 class="big">SUOSITELLUIN KIRJA</h2>
         <h4>HYVIÄ KIRJOJA EI OLE KOSKAAN LIIKAA</h4>
       </section>
       <section id="kuka" class="two">
-        <img src="images/taija.jpg" alt="Taija Ruuhijärvi" class="portrait"/>
+        <img src="images/taija.jpg" alt="Taija Ruuhijärvi" class="portrait">
         <div>
           <h2>Kuka minä olen?</h2>
           <p>
@@ -67,18 +63,13 @@
       </section>
       <section class="center">
         <h3>Uutisia</h3>
-        <img src="images/lehti-1.jpg" alt="Kuva uutisista" class="news"/>
+        <img src="images/lehti-1.jpg" alt="Kuva uutisista" class="news">
         <h2>Töppötassut lehdissä ...</h2>
-        <img src="images/lehti-2.jpg" alt="Lehtijuttu" class="news"/>
-        <img src="images/lehti-3.jpg" alt="Aamuset" class="news"/>
+        <img src="images/lehti-2.jpg" alt="Lehtijuttu" class="news">
+        <img src="images/lehti-3.jpg" alt="Aamuset" class="news">
       </section>
     </main>
     <footer>
-      <form class="newsletter" onsubmit="return newsletter(this);">
-        <label for="nl">tilaa uutiskirje</label>
-        <input id="nl" type="email" required placeholder="Sähköposti" />
-        <button>tilaa</button>
-      </form>
       <p>© 2023 by Taija Ruuhijärvi</p>
     </footer>
   </body>

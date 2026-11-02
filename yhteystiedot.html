@@ -1,19 +1,15 @@
 <!doctype html>
 <html lang="fi">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Yhteystiedot | Taija Ruuhijärvi</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
   </head>
   <body>
     <header>
-      <button
-        class="burger"
-        aria-label="Valikko"
-        onclick="document.getElementById('m').classList.toggle('open')"
-      >
+      <button class="burger" aria-label="Valikko" onclick="document.getElementById('m').classList.toggle('open')">
         ...
       </button>
       <nav>
@@ -36,17 +32,17 @@
           <p><b>Kirjailija Taija Ruuhijärvi</b></p>
           <p>
             Sähköposti
-            <br />
+            <br>
             <a href="mailto:taija.ruuhijarvi@hotmail.com">taija.ruuhijarvi@hotmail.com</a>
           </p>
           <form onsubmit="return contactForm(this);">
             <label>
               Nimi
-              <input name="n" required />
+              <input name="n" required>
             </label>
             <label>
               Sähköposti
-              <input name="e" type="email" required />
+              <input name="e" type="email" required>
             </label>
             <label>
               Viesti
@@ -56,15 +52,10 @@
             <p class="ok" hidden>Kiitos viestistäsi!</p>
           </form>
         </div>
-        <img src="images/taija.jpg" alt="Taija Ruuhijärvi" class="portrait"/>
+        <img src="images/taija.jpg" alt="Taija Ruuhijärvi" class="portrait">
       </section>
     </main>
     <footer>
-      <form class="newsletter" onsubmit="return newsletter(this);">
-        <label for="nl">tilaa uutiskirje</label>
-        <input id="nl" type="email" required placeholder="Sähköposti" />
-        <button>tilaa</button>
-      </form>
       <p>© 2023 by Taija Ruuhijärvi</p>
     </footer>
   </body>
