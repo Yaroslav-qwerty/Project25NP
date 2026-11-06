@@ -286,10 +286,11 @@ form textarea {
 }
 
 footer {
-  background: #ffc94d;
+  background: #0f5c6e;
+  color: #f4f4f4;
   text-align: center;
   padding: 30px 20px;
-  border-top: 4px solid #0f5c6e;
+  border-top: 4px solid #ffc94d;
 }
 
 .social {
@@ -307,12 +308,12 @@ footer {
   width: 160px;
   height: 40px;
   border-radius: 0%;
-  background: #0f5c6e;
-  color: #fff;
+  background: #ffc94d;
+  color: #222;
   font-weight: 700;
   text-decoration: none;
 }
 
 .social a:hover {
-  background: #555;
+  background: #e4502f;
 }
