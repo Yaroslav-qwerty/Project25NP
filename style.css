@@ -223,7 +223,7 @@ footer {
   --sea-dark: #0a3f4c;
   --coral: #ff6b4a;
   --sun: #ffc94d;
-  --cream: #fff8ec;
+  --cream: #f0faca;
   --sky: #ddf0f5;
 }
 
@@ -286,7 +286,7 @@ form textarea {
 }
 
 footer {
-  background: #0f5c6e;
+  background: #0a3f4c;
   color: #f4f4f4;
   text-align: center;
   padding: 30px 20px;
@@ -315,5 +315,5 @@ footer {
 }
 
 .social a:hover {
-  background: #e4502f;
+  background: #677ee6;
 }
